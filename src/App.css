@@ -2,4 +2,11 @@
   color: white;
 }
 
+.secondary-color {
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.accent-color {
+  color: #16F096;
+}
 /* 0F172A */

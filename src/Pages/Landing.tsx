@@ -1,10 +1,15 @@
+import { About } from "../components/About"
+import { ScrollSection } from "../components/Scroll"
+
 export const Landing = () => {
-    return <div className="flex h-screen">
-        <div className="w-[40%] p-4">
-            
+    return (
+        <div className="flex h-screen overflow-hidden">
+            <div className="w-[43%] h-full">
+                <About />
+            </div>
+            <div className="w-[57%] h-full overflow-y-auto">
+                <ScrollSection />
+            </div>
         </div>
-        <div className="w-[60%] p-4">
-            
-        </div>
-    </div>
+    )
 }
