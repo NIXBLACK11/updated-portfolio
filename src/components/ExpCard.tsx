@@ -23,7 +23,7 @@ export const ExpCard: React.FC<JobExperienceCardProps> = ({
   skills
 }) => {
   return (
-    <TiltWrapper options={{ max: 5, speed: 10 }} className='mt-10 rounded-lg'>
+    <TiltWrapper options={{ max: 5, speed: 10 }} className='mt-10 rounded-lg  w-full'>
       <a href={link} target='_blank' className="rounded-lg">
         <div className="flex justify-between items-start mb-2">
           <span className="secondary-color custom-font text-sm">{dateRange}</span>

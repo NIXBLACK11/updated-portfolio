@@ -1,6 +1,7 @@
-import { Education } from "./Eduction"
+import { Education } from "./Education"
 import { Experience } from "./Experience"
 import { Projects } from "./Projects"
+import { Recommendations } from "./Recommendations"
 
 export const ScrollSection = () => {
     return (
@@ -12,17 +13,21 @@ export const ScrollSection = () => {
                 <br/><br/>
                 When I’m not coding, you can find me playing video games, enjoying football, or hiking in the great outdoors.
             </section>
-            <section className="mt-10" id="Experience">
+            <section className="mt-10  w-full px-0 mx-0" id="Experience">
                 <div className="font-custom font-color text-4xl">Experience</div>
                 <Experience/>
             </section>
-            <section className="mt-10" id="Projects">
+            <section className="mt-10  w-full px-0 mx-0" id="Projects">
                 <div className="font-custom font-color text-4xl">Projects</div>
                 <Projects/>
             </section>
-            <section className="mt-10" id="Education">
+            <section className="mt-10 w-full px-0 mx-0" id="Education">
                 <div className="font-custom font-color text-4xl">Education</div>
-                <Education/>
+                <Education />
+            </section>
+            <section className="mt-10 w-full px-0 mx-0" id="Recommendations">
+                <div className="font-custom font-color text-4xl">Recommendations</div>
+                <Recommendations/>
             </section>
         </div>
     )

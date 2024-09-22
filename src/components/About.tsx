@@ -4,6 +4,7 @@ import { SiLeetcode, SiSolidity, SiTypescript } from "react-icons/si"
 import { useRecoilState } from "recoil";
 import { sectionState } from "../atom";
 import { useEffect } from "react";
+import { GoVersions } from "react-icons/go";
 
 export const About = () => {
     const [activeSection, setActiveSection] = useRecoilState(sectionState);
@@ -31,7 +32,7 @@ export const About = () => {
         };
       }, []);
     return (
-        <div className="mx-8 flex justify-center items-center flex-col mt-20">
+        <div className="mx-8 flex justify-center items-center flex-col mt-20 mb-5 max-h-screen overflow-y-auto">
             <div>
                 <div className="font-custom text-[#16F096] text-5xl">Siddharth Singh Rana</div>
                 <div className="font-custom font-color text-2xl mt-2">Software Developer</div>
@@ -73,19 +74,38 @@ export const About = () => {
                 >
                     Projects
                 </a><br/>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'Education' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#Education"
+                >
+                    Education
+                </a><br/>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'Recommendations' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#Recommendations"
+                >
+                    Recommendations
+                </a><br/>
                 <div className="bg-transparent h-32"></div>
-                <div className="flex flex-row justify-center mb-0">
-                    <a href="https://github.com/NIXBLACK11/" target="_blank">
-                        <FaGithub className="secondary-color m-4 text-3xl hover:text-[#16f095a6]"/>
+                <div className="flex flex-row justify-center">
+                    <a href="https://github.com/NIXBLACK11/" target="_blank" className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
+                        <FaGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/siddharthsinghrana11/" target="_blank">
-                        <FaLinkedin className="secondary-color m-4 text-3xl hover:text-[#16f095a6]"/>
+                    <a href="https://www.linkedin.com/in/siddharthsinghrana11/" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
+                        <FaLinkedin/>
                     </a>
-                    <a href="https://x.com/NIXBLACK_" target="_blank">
-                        <FaXTwitter className="secondary-color m-4 text-3xl hover:text-[#16f095a6]"/>
+                    <a href="https://x.com/NIXBLACK_" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
+                        <FaXTwitter/>
                     </a>
-                    <a href="https://leetcode.com/NIXBLACK/" target="_blank">
-                        <SiLeetcode className="secondary-color m-4 text-3xl hover:text-[#16f095a6]"/>
+                    <a href="https://leetcode.com/NIXBLACK/" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
+                        <SiLeetcode/>
+                    </a>
+                    <a href="https://siddharth-dev-portfolio.netlify.app/" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6] inline-flex items-center">
+                        <GoVersions/>1
                     </a>
                 </div>
             </div>

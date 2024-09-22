@@ -2,7 +2,7 @@ import { ExpCard } from "./ExpCard"
 
 export const Experience = () => {
     return (
-        <div>
+        <div className="w-full">
             <ExpCard
                 dateRange="September(2024) — PRESENT"
                 jobTitle="Member"
