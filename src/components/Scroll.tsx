@@ -1,3 +1,4 @@
+import { Education } from "./Eduction"
 import { Experience } from "./Experience"
 import { Projects } from "./Projects"
 
@@ -21,7 +22,7 @@ export const ScrollSection = () => {
             </section>
             <section className="mt-10" id="Education">
                 <div className="font-custom font-color text-4xl">Education</div>
-                <Projects/>
+                <Education/>
             </section>
         </div>
     )

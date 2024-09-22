@@ -8,7 +8,6 @@ interface Skill {
 interface ProjectCardProps {
   projectTitle: string;
   description: string;
-  photoLink: string;
   link: string;
   skills: Skill[];
 }
@@ -16,7 +15,6 @@ interface ProjectCardProps {
 export const ProCard: React.FC<ProjectCardProps> = ({
   projectTitle,
   description,
-  photoLink,
   link,
   skills
 }) => {
