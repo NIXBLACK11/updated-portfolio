@@ -1,6 +1,6 @@
 import { atom } from 'recoil';
 
-// export const socketState = atom<WebSocket | null>({
-//     key: 'socketState',
-//     default: null,
-// });
+export const sectionState = atom<string>({
+    key: 'sectionState',
+    default: '',
+});

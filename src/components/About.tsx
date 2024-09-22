@@ -1,8 +1,35 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa"
-import { FaXTwitter } from "react-icons/fa6"
-import { SiLeetcode } from "react-icons/si"
+import { FaGithub, FaLinkedin, FaLinux, FaPython } from "react-icons/fa"
+import { FaGolang, FaXTwitter } from "react-icons/fa6"
+import { SiLeetcode, SiSolidity, SiTypescript } from "react-icons/si"
+import { useRecoilState } from "recoil";
+import { sectionState } from "../atom";
+import { useEffect } from "react";
 
 export const About = () => {
+    const [activeSection, setActiveSection] = useRecoilState(sectionState);
+
+    useEffect(() => {
+        const sections = document.querySelectorAll('section');
+        const options = {
+          root: null,
+          rootMargin: '0px',
+          threshold: 0.6
+        };
+    
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveSection(entry.target.id);
+            }
+          });
+        }, options);
+    
+        sections.forEach((section) => observer.observe(section));
+    
+        return () => {
+          sections.forEach((section) => observer.unobserve(section));
+        };
+      }, []);
     return (
         <div className="mx-8 flex justify-center items-center flex-col mt-20">
             <div>
@@ -15,16 +42,37 @@ export const About = () => {
                     Experience in building apps with Typescript, Golang and Python.
                 </div>
                 <div className="flex flex-row justify-center mt-12">
-                    <img src="go.png" style={{width: 30, height: 30}} className="m-4"/>
-                    <img src="ts.png" style={{width: 30, height: 30}} className="m-4"/>
-                    <img src="linux.png" style={{width: 30, height: 30}} className="m-4"/>
-                    <img src="python.png" style={{width: 30, height: 30}} className="m-4"/>
-                    <img src="sol.png" style={{width: 30, height: 30}} className="m-4"/>
+                    <FaGolang className="text-[#16F096] m-4 text-3xl"/>
+                    <SiTypescript className="text-[#16F096] m-4 text-3xl"/>
+                    <FaLinux className="text-[#16F096] m-4 text-3xl"/>
+                    <FaPython className="text-[#16F096] m-4 text-3xl"/>
+                    <SiSolidity className="text-[#16F096] m-4 text-3xl"/>
                 </div>
                 <div className="bg-transparent h-24"></div>
-                <div className="font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6]">About</div>
-                <div className="font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6]">Experience</div>
-                <div className="font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6]">Projects</div>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'About' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#About"
+                >
+                    About
+                </a><br/>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'Experience' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#Experience"
+                >
+                    Experience
+                </a><br/>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'Projects' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#Projects"
+                >
+                    Projects
+                </a><br/>
                 <div className="bg-transparent h-32"></div>
                 <div className="flex flex-row justify-center mb-0">
                     <a href="https://github.com/NIXBLACK11/" target="_blank">
