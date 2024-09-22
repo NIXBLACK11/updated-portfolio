@@ -32,7 +32,7 @@ export const About = () => {
         };
       }, []);
     return (
-        <div className="mx-8 flex justify-center items-center flex-col mt-20 mb-5 max-h-screen overflow-y-auto">
+        <div className="mx-8 flex justify-center items-center flex-col mt-20 mb-auto">
             <div>
                 <div className="font-custom text-[#16F096] text-5xl">Siddharth Singh Rana</div>
                 <div className="font-custom font-color text-2xl mt-2">Software Developer</div>
@@ -49,7 +49,16 @@ export const About = () => {
                     <FaPython className="text-[#16F096] m-4 text-3xl"/>
                     <SiSolidity className="text-[#16F096] m-4 text-3xl"/>
                 </div>
-                <div className="bg-transparent h-24"></div>
+                <div className="bg-transparent h-20 my-12 flex flex-col items-center">
+                    <div 
+                        className="rounded-full bg-[#16F096] hover:bg-[#16f095a6] px-10 py-2 my-0 w-min font-custom font-color text-center"
+                        onClick={()=> {
+                            window.open('https://drive.google.com/file/d/1r2tcXrsFcVruSvMo9tjzeR8Nm1deM1mm/view?usp=sharing', '_blank');
+                        }}
+                    >
+                        Resume
+                    </div>
+                </div>
                 <a
                     className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
                     activeSection === 'About' ? 'text-[#16f095]' : ''

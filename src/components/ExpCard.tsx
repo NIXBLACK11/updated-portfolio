@@ -35,7 +35,7 @@ export const ExpCard: React.FC<JobExperienceCardProps> = ({
             {skills.map((skill, index) => (
             <span 
                 key={index} 
-                className={`px-3 py-1 rounded-full font-color text-[#16f095a6]`}
+                className={`px-3 py-1 rounded-full font-color font-color text-[#16f095a6]`}
             >
                 {skill.name}
             </span>

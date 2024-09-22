@@ -1,6 +1,9 @@
+import { MdOutlineArrowOutward } from "react-icons/md"
 import { ProCard } from "./ProCard"
+import { useNavigate } from "react-router-dom"
 
 export const Projects = () => {
+    const navigate = useNavigate();
     return (
         <div className="w-full">
             <ProCard
@@ -59,6 +62,14 @@ export const Projects = () => {
                     { name: "Chrome Extensions" }
                 ]}
             />
+            <div 
+                className="secondary-color font-custom hover:text-white underline text-1xl mt-8 inline-flex items-center"
+                onClick={() => {
+                    navigate('/projects');
+                }}
+            >
+                View all my projects<MdOutlineArrowOutward />
+            </div>
         </div>
     )
 }
