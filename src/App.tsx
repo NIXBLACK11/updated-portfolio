@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Landing } from './Pages/Landing';
 import MouseLight from './components/MouseLight';
-import { Projects } from './components/Projects';
+import { AllProjects } from './Pages/AllProjects';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing />} />
-          <Route path='/game' element={<Projects />} />
+          <Route path='/projects' element={<AllProjects />} />
         </Routes>
         <MouseLight color="22, 240, 150" size={1000} opacity={0.2} />
       </BrowserRouter>
