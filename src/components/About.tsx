@@ -99,8 +99,8 @@ export const About = () => {
                 >
                     Recommendations
                 </a><br/>
-                <div className="bg-transparent h-32"></div>
-                <div className="flex flex-row justify-center">
+                {/* <div className="bg-transparent h-32"></div> */}
+                <div className="flex flex-row justify-center mt-10">
                     <a href="https://github.com/NIXBLACK11/" target="_blank" className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
                         <FaGithub/>
                     </a>
