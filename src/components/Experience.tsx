@@ -7,8 +7,8 @@ export const Experience = () => {
                 dateRange="September(2024) — PRESENT"
                 jobTitle="Member"
                 company="Superteam India"
-                description="Founded and actively developing Solabule, a Solana-powered multiplayer gaming platform. Architected the platform using Solana libraries, enabling decentralized transactions for the gaming dApp. Secured funding from the Solana Foundation and CoinDCX for the platform's development."
-                link="https://solabule-nix.vercel.app"
+                description="Founded and actively developing Nixarcade, a Solana-powered multiplayer gaming platform. Architected the platform using Solana libraries, enabling decentralized transactions for the gaming dApp. Secured funding from the Solana Foundation and CoinDCX for the platform's development."
+                link="https://superteam.fun/"
                 skills={[
                 { name: "Solana-web3.js" },
                 { name: "TypeScript" },

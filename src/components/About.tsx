@@ -39,7 +39,7 @@ export const About = () => {
                 <div className="font-custom secondary-color text-1xl mt-2">
                     <a href="https://fellowship.mlh.io/" target="_blank" className="underline hover:text-[#16f095a6]">MLH Fellow '23</a>&nbsp;|&nbsp;
                     <a href="https://superteam.fun/" target="_blank" className="underline hover:text-[#16f095a6]">@SuperteamIN</a><br/>
-                    <a href="https://solabule-nix.vercel.app/" target="_blank" className="underline hover:text-[#16f095a6]">Building Solabule</a><br/>
+                    <a href="https://ludo.nixarcade.fun/" target="_blank" className="underline hover:text-[#16f095a6]">Building Nixarcade</a><br/>
                     Experience in building apps with Typescript, Golang and Python.
                 </div>
                 <div className="flex flex-row justify-center mt-12">

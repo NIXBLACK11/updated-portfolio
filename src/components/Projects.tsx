@@ -7,9 +7,9 @@ export const Projects = () => {
     return (
         <div className="w-full">
             <ProCard
-                projectTitle="Solabule"
+                projectTitle="Nixarcade"
                 description="Developing a platform where you can play games wih your friends and family using secure game codes, and contribute through Solana."
-                link="https://solabule-nix.vercel.app"
+                link="https://ludo.nixarcade.fun/"
                 skills={[
                     { name: "Solana-web3.js" },
                     { name: "TypeScript" },

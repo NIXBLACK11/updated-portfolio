@@ -27,13 +27,13 @@ export const AllProjects = () => {
       </div>
       
       <AllProCard
-        projectTitle="Solabule"
+        projectTitle="Nixarcade"
         description={[
-          "• Founded and actively developing Solabule, a Solana-powered multiplayer gaming platform.",
-          "• Architected Solabule using Solana libraries, enabling decentralized transactions for gaming dApp.",
+          "• Founded and actively developing Nixarcade, a Solana-powered multiplayer gaming platform.",
+          "• Architected Nixarcade using Solana libraries, enabling decentralized transactions for gaming dApp.",
           "• Secured funding from Solana Foundation & CoinDCX, for development of the platform."
         ]}
-        link="https://solabule-nix.vercel.app"
+        link="hhttps://ludo.nixarcade.fun/"
         projPhoto="projects/solabule.png"
         skills={[
           "Solana-web3.js",
