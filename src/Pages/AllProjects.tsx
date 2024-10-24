@@ -34,7 +34,7 @@ export const AllProjects = () => {
           "• Secured funding from Solana Foundation & CoinDCX, for development of the platform."
         ]}
         link="hhttps://ludo.nixarcade.fun/"
-        projPhoto="projects/solabule.png"
+        projPhoto="projects/nixarcade.png"
         skills={[
           "Solana-web3.js",
           "TypeScript",
@@ -162,7 +162,7 @@ export const AllProjects = () => {
           "• Structured the project with Turborepo for efficient Monorepo management.",
           "• Implemented Recoil for Efficient Global State Management, Enhancing Program Clarity."
         ]}
-        link="https://github.com/NIXBLACK11/LudoFam"
+        link="https://ludo.nixarcade.fun/"
         projPhoto="projects/ludo.png"
         skills={[
           "React",

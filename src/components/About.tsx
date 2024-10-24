@@ -5,6 +5,7 @@ import { useRecoilState } from "recoil";
 import { sectionState } from "../atom";
 import { useEffect } from "react";
 import { GoVersions } from "react-icons/go";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 export const About = () => {
     const [activeSection, setActiveSection] = useRecoilState(sectionState);
@@ -49,7 +50,7 @@ export const About = () => {
                     <FaPython className="text-[#16F096] m-4 text-3xl"/>
                     <SiSolidity className="text-[#16F096] m-4 text-3xl"/>
                 </div>
-                <div className="bg-transparent h-20 my-12 flex flex-col items-center">
+                <div className="bg-transparent h-20 mt-12 flex flex-col items-center">
                     <div 
                         className="rounded-full bg-[#16F096] hover:bg-[#16f095a6] px-10 py-2 my-0 w-min font-custom font-color text-center"
                         onClick={()=> {
@@ -57,6 +58,16 @@ export const About = () => {
                         }}
                     >
                         Resume
+                    </div>
+                </div>
+                <div className="flex justify-center items-center">
+                    <div 
+                        className="secondary-color font-custom hover:text-white underline text-1xl mb-12 inline-flex items-center"
+                        onClick={() => {
+                            window.open("https://calendly.com/nixblack/30min", "_blank");
+                        }}
+                        >
+                        Book a quick call with me<MdOutlineArrowOutward />
                     </div>
                 </div>
                 <a
