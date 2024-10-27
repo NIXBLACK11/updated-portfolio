@@ -50,13 +50,28 @@ export const AllProjects = () => {
           "• Integrated Gemini for resume parsing and Google Search API for fetching job listings.",
           "• Complemented with a frontend that displays job headings, links, descriptions, and images."
         ]}
-        link="https://nixjoblinker.vercel.app/"
+        link="https://jobs.nixblack.site"
         projPhoto="projects/joblinker.png"
         skills={[
           "Golang",
           "React",
           "TypeScript",
           "Gemini"
+        ]}
+      />
+      <AllProCard
+        projectTitle="Nix-Faucet"
+        description={[
+          "• Built a simple faucet to transfer solana on the devnet to a users account.",
+          "• Mostly focused on the UI giving the website a mono-chorome theme."
+        ]}
+        link="https://faucet.nixblack.site"
+        projPhoto="projects/faucet.png"
+        skills={[
+          "Solana-web3.js",
+          "TypeScript",
+          "React",
+          "Tailwind"
         ]}
       />
       <AllProCard
