@@ -9,7 +9,7 @@ export const Projects = () => {
             <ProCard
                 projectTitle="Nixarcade"
                 description="Developing a platform where you can play games wih your friends and family using secure game codes, and contribute through Solana."
-                link="https://ludo.nixarcade.fun/"
+                link="https://nixarcade.fun/"
                 skills={[
                     { name: "Solana-web3.js" },
                     { name: "TypeScript" },

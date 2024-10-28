@@ -33,7 +33,7 @@ export const AllProjects = () => {
           "• Architected Nixarcade using Solana libraries, enabling decentralized transactions for gaming dApp.",
           "• Secured funding from Solana Foundation & CoinDCX, for development of the platform."
         ]}
-        link="hhttps://ludo.nixarcade.fun/"
+        link="https://nixarcade.fun/"
         projPhoto="projects/nixarcade.png"
         skills={[
           "Solana-web3.js",
