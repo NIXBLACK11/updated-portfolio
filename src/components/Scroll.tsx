@@ -5,7 +5,7 @@ import { Recommendations } from "./Recommendations"
 
 export const ScrollSection = () => {
     return (
-        <div className="mx-24 flex justify-center items-center flex-col mt-20" >
+        <div className="mx-8 flex justify-center items-center flex-col mt-20" >
             <section className="font-custom secondary-color text-1xl" id="About">
                 In 2021, I took the plunge into software development while pursuing my Bachelor's in <a className="font-custom font-color">Computer Science and Engineering</a>.Since then, I've had the opportunity to work on diverse projects, from contributing to open-source initiatives at <a className="font-custom font-color">Meta</a> to founding <a className="font-custom font-color">Nixarcade</a>, a decentralized gaming platform on Solana.
                 <br/><br/>
