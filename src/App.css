@@ -32,3 +32,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+::selection {
+  background-color: #16F096; /* Your custom highlight color */
+  color: #000000; /* Text color when highlighted */
+}
+
+/* For Firefox, use the following rule */
+::-moz-selection {
+  background-color: #16F096; /* Your custom highlight color */
+  color: #000000; /* Text color when highlighted */
+}
