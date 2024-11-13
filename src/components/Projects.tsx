@@ -21,7 +21,7 @@ export const Projects = () => {
             <ProCard
                 projectTitle="Joblinker"
                 description="Created a job search platform that parses resumes with Gemini, fetches relevant job listings from Google Search, and displays them in a user-friendly frontend."
-                link="https://nixjoblinker.vercel.app/"
+                link="https://jobs.nixblack.site/"
                 skills={[
                     { name: "Golang" },
                     { name: "TypeScript" },
@@ -30,9 +30,9 @@ export const Projects = () => {
                 ]}
             />
             <ProCard
-                projectTitle="Go Link Tree"
-                description="Built a personalized Linktree for storing social media links, featuring secure JWT login with optimized performance, deployed on Vercel and powered by a Golang backend on Render."
-                link="https://link-go-tree.vercel.app/"
+                projectTitle="Stratus"
+                description="Developed Stratus, a Golang command-line monitoring tool for tracking website performance and security issues, with configurable setup via files and automated email notifications for alerts."
+                link="https://stratus.nixblack.site/"
                 skills={[
                     { name: "Golang" },
                     { name: "TypeScript" },
@@ -52,14 +52,14 @@ export const Projects = () => {
                 ]}
             />
             <ProCard
-                projectTitle="Chrome Extension using BERT"
-                description="Utilized Google BERT for real-time text summarization of your current page, easily available as a chrome extension."
-                link="https://github.com/NIXBLACK11/summarizationExtension"
+                projectTitle="Nix-Faucet"
+                description="Built a simple faucet to transfer Solana on the devnet to users' accounts, focusing on a monochrome-themed UI for the website."
+                link="https://faucet.nixblack.site/"
                 skills={[
-                    { name: "Python" },
-                    { name: "Google BERT" },
-                    { name: "HTML/CSS" },
-                    { name: "Chrome Extensions" }
+                    { name: "Solana-web3.js" },
+                    { name: "Typescript" },
+                    { name: "React" },
+                    { name: "Tailwind" }
                 ]}
             />
             <div 
