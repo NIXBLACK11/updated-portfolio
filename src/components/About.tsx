@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaLinux, FaPython } from "react-icons/fa"
-import { FaGolang, FaXTwitter } from "react-icons/fa6"
+import { FaGolang, FaUpwork, FaXTwitter } from "react-icons/fa6"
 import { SiLeetcode, SiSolidity, SiTypescript } from "react-icons/si"
 import { useRecoilState } from "recoil";
 import { sectionState } from "../atom";
@@ -123,6 +123,9 @@ export const About = () => {
                     </a>
                     <a href="https://leetcode.com/NIXBLACK/" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
                         <SiLeetcode/>
+                    </a>
+                    <a href="https://www.upwork.com/freelancers/~0169b807dadb540840" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6]">
+                        <FaUpwork />
                     </a>
                     <a href="https://siddharth-dev-portfolio.netlify.app/" target="_blank"  className="secondary-color m-4 text-3xl hover:text-[#16f095a6] inline-flex items-center">
                         <GoVersions/>1
