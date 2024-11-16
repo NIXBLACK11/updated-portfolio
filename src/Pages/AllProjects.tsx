@@ -111,7 +111,7 @@ export const AllProjects = () => {
           "• Developed with Golang, featuring JWT for Secure Login, and Optimized for Speed.",
           "• Deployed using Vercel, complemented by Golang backend on Render."
         ]}
-        link="https://link-go-tree.vercel.app/"
+        link="https://link.nixblack.site/"
         projPhoto="projects/linktree.jpeg"
         skills={[
           "Golang",
