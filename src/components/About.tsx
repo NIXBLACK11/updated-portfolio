@@ -1,6 +1,6 @@
-import { FaGithub, FaLinkedin, FaLinux, FaPython } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaLinux, FaPython, FaRust } from "react-icons/fa"
 import { FaGolang, FaUpwork, FaXTwitter } from "react-icons/fa6"
-import { SiLeetcode, SiSolidity, SiTypescript } from "react-icons/si"
+import { SiLeetcode, SiTypescript } from "react-icons/si"
 import { useRecoilState } from "recoil";
 import { sectionState } from "../atom";
 import { useEffect } from "react";
@@ -48,7 +48,7 @@ export const About = () => {
                     <SiTypescript className="text-[#16F096] m-4 text-3xl"/>
                     <FaLinux className="text-[#16F096] m-4 text-3xl"/>
                     <FaPython className="text-[#16F096] m-4 text-3xl"/>
-                    <SiSolidity className="text-[#16F096] m-4 text-3xl"/>
+                    <FaRust className="text-[#16F096] m-4 text-3xl"/>
                 </div>
                 <div className="bg-transparent h-20 mt-12 flex flex-col items-center">
                     <div 
