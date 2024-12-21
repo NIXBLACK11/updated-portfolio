@@ -54,7 +54,7 @@ export const About = () => {
                     <div 
                         className="rounded-full bg-[#16F096] hover:bg-[#16f095a6] px-10 py-2 my-0 w-min font-custom font-color text-center"
                         onClick={()=> {
-                            window.open('https://drive.google.com/file/d/1r2tcXrsFcVruSvMo9tjzeR8Nm1deM1mm/view?usp=sharing', '_blank');
+                            window.open('https://drive.google.com/file/d/1typQwknx4yYAkWvtY7qVsdxHI6A2gSFg/view?usp=sharing', '_blank');
                         }}
                     >
                         Resume
