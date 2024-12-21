@@ -17,7 +17,7 @@ export const Experience = () => {
                 ]}
             />
             <ExpCard
-                dateRange="September(2024) — December(2024)"
+                dateRange="September(2023) — December(2023)"
                 jobTitle="Software Developer Intern"
                 company="Meta"
                 description="Contributed to Meta’s open-source projects Laser and Sacremoses, resolving language list issues to improve accessibility, achieving parity between Perl and Python scripts, and demonstrating key functionalities to users."
