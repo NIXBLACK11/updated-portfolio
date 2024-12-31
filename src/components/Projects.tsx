@@ -41,14 +41,14 @@ export const Projects = () => {
                 ]}
             />
             <ProCard
-                projectTitle="The Feedback Loop"
-                description="Developed a video analysis tool that provides personalized feedback to content creators, comparing their videos with top creators' work."
+                projectTitle="Chain Poll"
+                description="Developed a decentralized polling app with Rust smart contracts on Solana, featuring secure, tamper-proof polls and easy sharing via links."
                 link="https://github.com/NIXBLACK11/The-Feedback-Loop"
                 skills={[
-                    { name: "Golang" },
+                    { name: "Rust" },
                     { name: "TypeScript" },
                     { name: "React" },
-                    { name: "Gemini" }
+                    { name: "Tailwind/Shadcdn" }
                 ]}
             />
             <ProCard
