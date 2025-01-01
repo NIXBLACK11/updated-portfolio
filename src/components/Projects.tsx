@@ -43,7 +43,7 @@ export const Projects = () => {
             <ProCard
                 projectTitle="Chain Poll"
                 description="Developed a decentralized polling app with Rust smart contracts on Solana, featuring secure, tamper-proof polls and easy sharing via links."
-                link="https://github.com/NIXBLACK11/The-Feedback-Loop"
+                link="https://polls.nixblack.site"
                 skills={[
                     { name: "Rust" },
                     { name: "TypeScript" },
