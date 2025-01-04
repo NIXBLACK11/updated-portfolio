@@ -12,7 +12,6 @@ const useScreenSize = () => {
 
     window.addEventListener('resize', handleResize);
 
-    // Cleanup event listener on component unmount
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
@@ -31,6 +30,7 @@ export const Landing = () => {
             <div className="w-[60%] h-full overflow-y-auto">
                 <ScrollSection />
             </div>
+            {/* <SkillsSlider /> */}
         </div> : 
         <div className="flex h-screen flex-col bg-[#000000]">
             <div className="bg-[#000000]">
@@ -39,6 +39,7 @@ export const Landing = () => {
             <div className="bg-[#000000]">
                 <ScrollSection />
             </div>
+            {/* <SkillsSlider /> */}
         </div>
     )
 }
