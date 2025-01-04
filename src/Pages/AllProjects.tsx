@@ -44,6 +44,36 @@ export const AllProjects = () => {
         ]}
       />
       <AllProCard
+        projectTitle="Stratus"
+        description={[
+          "• Developed Stratus, a monitoring tool in Golang to track Website Performance and Security Issues.",
+          "• Implemented as a command-line tool that accepts configuration files for setup.",
+          "• Integrated with automated email notifications to alert users of website issues."
+        ]}
+        link="https://stratus.nixblack.site/"
+        projPhoto="projects/stratus.png"
+        skills={[
+          "Golang",
+          "Mux"
+        ]}
+      />
+      <AllProCard
+        projectTitle="Chain Poll"
+        description={[
+          "• Developed a decentralized polling application powered by Rust smart contracts on the Solana blockchain.",
+          "• Enabled secure and tamper-proof polls, leveraging blockchain decentralization.",
+          "• Designed a seamless sharing feature, allowing polls to be shared via simple links for user convenience."
+        ]}
+        link="https://polls.nixblack.site/"
+        projPhoto="projects/polls.png"
+        skills={[
+          "Rust",
+          "Tailwind",
+          "TypeScript",
+          "Solana"
+        ]}
+      />
+      <AllProCard
         projectTitle="JobLinker"
         description={[
           "• Developed a job search tool to provide relevant jobs according to the user resume and preferences.",
@@ -75,27 +105,13 @@ export const AllProjects = () => {
         ]}
       />
       <AllProCard
-        projectTitle="Stratus"
-        description={[
-          "• Developed Stratus, a monitoring tool in Golang to track Website Performance and Security Issues.",
-          "• Implemented as a command-line tool that accepts configuration files for setup.",
-          "• Integrated with automated email notifications to alert users of website issues."
-        ]}
-        link="https://stratus.nixblack.site/"
-        projPhoto="projects/stratus.png"
-        skills={[
-          "Golang",
-          "Mux"
-        ]}
-      />
-      <AllProCard
         projectTitle="Ludo Game"
         description={[
           "• Developed a multiplayer Ludo game with real-time actions using WebSockets.",
           "• Structured the project with Turborepo for efficient Monorepo management.",
           "• Implemented Recoil for Efficient Global State Management, Enhancing Program Clarity."
         ]}
-        link="https://ludo.nixarcade.fun/"
+        link="https://ludofam.nixarcade.fun/"
         projPhoto="projects/ludo.png"
         skills={[
           "React",
