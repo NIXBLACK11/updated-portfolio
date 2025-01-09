@@ -2,7 +2,7 @@ import { ExpCard } from "./ExpCard"
 
 export const Experience = () => {
     return (
-        <div className="w-full">
+        <div className="w-full font-custom">
             <ExpCard
                 dateRange="September(2024) — PRESENT"
                 jobTitle="Member"

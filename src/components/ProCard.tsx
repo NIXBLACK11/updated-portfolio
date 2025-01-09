@@ -20,12 +20,12 @@ export const ProCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <TiltWrapper options={{ max: 5, speed: 10 }} className='mt-10 rounded-lg w-full'>
-      <a href={link} target='_blank' className="flex flex-col">
+      <a href={link} target='_blank' className="flex flex-col font-custom">
         <div className="flex justify-between items-start mb-2">
           <h3 className="text-[#16F096] text-xl font-custom mb-1">{projectTitle}</h3>
         </div>
         <p className="secondary-color mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 ">
             {skills.map((skill, index) => (
             <span 
                 key={index} 

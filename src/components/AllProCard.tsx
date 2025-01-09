@@ -13,7 +13,7 @@ export const AllProCard: React.FC<AllProcCardProps> = ({
 }) => {
   return (
     <a href={link} target='_blank' >
-      <div className="mt-10 bg-transparent hover:bg-[#16f09510] p-6">
+      <div className="mt-10 bg-transparent hover:bg-[#16f09510] p-6 font-custom">
         <div className="grid grid-cols-12 gap-2">
           <div className="col-span-3">
             <img
