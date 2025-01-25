@@ -96,6 +96,14 @@ export const About = () => {
                 </a><br/>
                 <a
                     className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
+                    activeSection === 'Publicationss' ? 'text-[#16f095]' : ''
+                    }`}
+                    href="#Publications"
+                >
+                    Publicationss
+                </a><br/>
+                <a
+                    className={`font-custom secondary-color text-2xl mt-4 hover:text-[#16f095a6] ${
                     activeSection === 'Education' ? 'text-[#16f095]' : ''
                     }`}
                     href="#Education"

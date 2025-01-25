@@ -1,6 +1,7 @@
 import { Education } from "./Education"
 import { Experience } from "./Experience"
 import { Projects } from "./Projects"
+import { Publications } from "./Publications"
 import { Recommendations } from "./Recommendations"
 
 export const ScrollSection = () => {
@@ -20,6 +21,10 @@ export const ScrollSection = () => {
             <section className="mt-10  w-full px-0 mx-0" id="Projects">
                 <div className="font-custom font-color text-4xl">Projects</div>
                 <Projects/>
+            </section>
+            <section className="mt-10  w-full px-0 mx-0" id="Publications">
+                <div className="font-custom font-color text-4xl">Publications</div>
+                <Publications/>
             </section>
             <section className="mt-10 w-full px-0 mx-0" id="Education">
                 <div className="font-custom font-color text-4xl">Education</div>
