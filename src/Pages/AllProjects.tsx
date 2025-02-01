@@ -58,6 +58,21 @@ export const AllProjects = () => {
 				]}
 			/>
 			<AllProCard
+				projectTitle="Animos"
+				description={[
+					"• A note-taking app that stores data in local storage.",
+					"• Utilizes AI to help users search and write better, finding relevant details about their notes."
+				]}
+				link="https://animos.nixblack.site"
+				projPhoto="projects/animos.png"
+				skills={[
+					"vercel-AI SDK",
+					"TypeScript",
+					"React",
+					"Tailwind"
+				]}
+			/>
+			<AllProCard
 				projectTitle="Chain Poll"
 				description={[
 					"• Developed a decentralized polling application powered by Rust smart contracts on the Solana blockchain.",
@@ -74,21 +89,6 @@ export const AllProjects = () => {
 				]}
 			/>
 			<AllProCard
-				projectTitle="Animos"
-				description={[
-					"• A note-taking app that stores data in local storage.",
-					"• Utilizes AI to help users search and write better, finding relevant details about their notes."
-				]}
-				link="https://animos.nixblack.site"
-				projPhoto="projects/animos.png"
-				skills={[
-					"AI",
-					"TypeScript",
-					"React",
-					"Tailwind"
-				]}
-			/>
-			<AllProCard
 				projectTitle="Dropbox Easy Signer"
 				description={[
 					"• A document signer using the Dropbox API.",
@@ -97,7 +97,7 @@ export const AllProjects = () => {
 				link="https://drop-fe-nine.vercel.app/"
 				projPhoto="projects/dropbox.png"
 				skills={[
-					"Dropbox API",
+					"Dropbox-API",
 					"TypeScript",
 					"React",
 					"Tailwind"
@@ -113,7 +113,7 @@ export const AllProjects = () => {
 				projPhoto="projects/nft.png"
 				skills={[
 					"Tensor .trade API",
-					"Metaplex",
+					"Metaplex, UMI",
 					"TypeScript",
 					"React"
 				]}
