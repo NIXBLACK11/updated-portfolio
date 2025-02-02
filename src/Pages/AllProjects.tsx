@@ -109,7 +109,7 @@ export const AllProjects = () => {
 					"• A marketplace for NFTs, powered by Tensor .trade API and Metaplex.",
 					"• Allows users to create NFTs and trade them in a decentralized marketplace."
 				]}
-				link="https://nft-marketplace.nixblack.site"
+				link="https://tasks-ten-nu.vercel.app/"
 				projPhoto="projects/nft.png"
 				skills={[
 					"Tensor .trade API",
