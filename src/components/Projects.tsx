@@ -37,7 +37,9 @@ export const Projects = () => {
                     { name: "Next.js" },
                     { name: "Typescript" },
                     { name: "React" },
-                    { name: "VercelAI SDK" }
+                    { name: "VercelAI SDK" },
+                    { name: "Supabase" },
+                    { name: "RazorPay" }
                 ]}
             />
             <ProCard

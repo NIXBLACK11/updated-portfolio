@@ -66,10 +66,12 @@ export const AllProjects = () => {
 				link="https://animos.nixblack.site"
 				projPhoto="projects/animos.png"
 				skills={[
-					"vercel-AI SDK",
+					"Vercel-AI SDK",
 					"TypeScript",
 					"React",
-					"Tailwind"
+					"Tailwind",
+					"Supabase",
+					"Razorpay"
 				]}
 			/>
 			<AllProCard
