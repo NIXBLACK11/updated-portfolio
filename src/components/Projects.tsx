@@ -19,17 +19,6 @@ export const Projects = () => {
                 ]}
             />
             <ProCard
-                projectTitle="Stratus"
-                description="Developed Stratus, a Golang command-line monitoring tool for tracking website performance and security issues, with configurable setup via files and automated email notifications for alerts."
-                link="https://stratus.nixblack.site/"
-                skills={[
-                    { name: "Golang" },
-                    { name: "TypeScript" },
-                    { name: "React" },
-                    { name: "Tailwind" }
-                ]}
-            />
-            <ProCard
                 projectTitle="Animos"
                 description="Built a notes taking app that uses users local storage to store data, and uses AI to increase efficiency."
                 link="https://animos.nixblack.site/"
@@ -43,6 +32,28 @@ export const Projects = () => {
                 ]}
             />
             <ProCard
+                projectTitle="Nixpay"
+                description="Built a crypto payment gateway that enables seamless transactions with real-time analytics, email notifications, and webhook callbacks. Integrated Jupiter Swap API to automatically convert received tokens into USDC for merchant settlements. Also developed an NPM SDK for easy integration."
+                link="https://pay.nixblack.site/"
+                skills={[
+                    { name: "Next.js" },
+                    { name: "TypeScript" },
+                    { name: "Jupiter API" },
+                    { name: "Solana" }
+                ]}
+            />
+            <ProCard
+                projectTitle="Stratus"
+                description="Developed Stratus, a Golang command-line monitoring tool for tracking website performance and security issues, with configurable setup via files and automated email notifications for alerts."
+                link="https://github.com/NIXBLACK11/stratus-core"
+                skills={[
+                    { name: "Golang" },
+                    { name: "TypeScript" },
+                    { name: "React" },
+                    { name: "Tailwind" }
+                ]}
+            />
+            <ProCard
                 projectTitle="Chain Poll"
                 description="Developed a decentralized polling app with Rust smart contracts on Solana, featuring secure, tamper-proof polls and easy sharing via links."
                 link="https://polls.nixblack.site"
@@ -51,17 +62,6 @@ export const Projects = () => {
                     { name: "TypeScript" },
                     { name: "React" },
                     { name: "Tailwind/Shadcdn" }
-                ]}
-            />
-            <ProCard
-                projectTitle="Joblinker"
-                description="Created a job search platform that parses resumes with Gemini, fetches relevant job listings from Google Search, and displays them in a user-friendly frontend."
-                link="https://jobs.nixblack.site/"
-                skills={[
-                    { name: "Golang" },
-                    { name: "TypeScript" },
-                    { name: "React" },
-                    { name: "Gemini" }
                 ]}
             />
             <ProCard

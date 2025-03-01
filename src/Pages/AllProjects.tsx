@@ -44,13 +44,29 @@ export const AllProjects = () => {
 				]}
 			/>
 			<AllProCard
+				projectTitle="NixPay"
+				description={[
+					"• Built a crypto payment gateway that enables seamless transactions with real-time analytics, email notifications, and webhook callbacks.",
+					"• Integrated Jupiter Swap API to automatically convert received tokens into USDC for merchant settlements.",
+					"• Developed an easy-to-use NPM SDK for effortless integration with various platforms."
+				]}
+				link="https://pay.nixblack.site"
+				projPhoto="projects/nixpay.png"
+				skills={[
+					"TypeScript",
+					"Next.js",
+					"Solana",
+					"Jupiter API"
+				]}
+			/>
+			<AllProCard
 				projectTitle="Stratus"
 				description={[
 					"• Developed Stratus, a monitoring tool in Golang to track Website Performance and Security Issues.",
 					"• Implemented as a command-line tool that accepts configuration files for setup.",
 					"• Integrated with automated email notifications to alert users of website issues."
 				]}
-				link="https://stratus.nixblack.site/"
+				link="https://github.com/NIXBLACK11/stratus-core"
 				projPhoto="projects/stratus.png"
 				skills={[
 					"Golang",

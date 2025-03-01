@@ -5,7 +5,7 @@ export const Experience = () => {
         <div className="w-full font-custom">
             <ExpCard
                 dateRange="September(2024) — PRESENT"
-                jobTitle="Member"
+                jobTitle="Founder"
                 company="NIXARCADE"
                 description="Founded and actively developing Nixarcade, a Solana-powered multiplayer gaming platform. Architected the platform using Solana libraries, enabling decentralized transactions for the gaming dApp. Secured funding from the Solana Foundation and CoinDCX for the platform's development."
                 link="https://nixarcade.fun/"
