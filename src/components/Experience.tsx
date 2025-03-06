@@ -30,7 +30,7 @@ export const Experience = () => {
                     { name: "Py-Torch" }
                 ]}
             />
-            <ExpCard
+            {/* <ExpCard
                 dateRange="October(2024) — January(2025)"
                 jobTitle="WEB3 Developer"
                 company="Skytrade"
@@ -43,7 +43,7 @@ export const Experience = () => {
                     { name: "Solana-web3.js" },
                     { name: "Metaplex" }
                 ]}
-            />
+            /> */}
         </div>
     )
 }
