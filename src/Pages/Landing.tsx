@@ -24,10 +24,10 @@ export const Landing = () => {
     return (
         (isLargeScreen) ? 
         <div className="flex h-screen bg-[#000000]">
-            <div className="w-[40%] max-h-screen min-h-screen overflow-hidden">
+            <div className="w-[35%] max-h-screen min-h-screen overflow-hidden">
                 <About />
             </div>
-            <div className="w-[60%] h-full overflow-y-auto">
+            <div className="w-[65%] h-full overflow-y-auto">
                 <ScrollSection />
             </div>
             {/* <SkillsSlider /> */}
