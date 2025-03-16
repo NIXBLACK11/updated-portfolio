@@ -38,8 +38,9 @@ export const About = () => {
                 <div className="font-custom text-[#16F096] text-5xl">Siddharth Singh Rana</div>
                 <div className="font-custom font-color text-2xl mt-2">Software Developer</div>
                 <div className="font-custom secondary-color text-1xl mt-2">
-                    <a href="https://fellowship.mlh.io/" target="_blank" className="underline hover:text-[#16f095a6]">MLH Fellow '23</a>&nbsp;|&nbsp;
-                    <a href="https://superteam.fun/" target="_blank" className="underline hover:text-[#16f095a6]">@SuperteamIN</a><br/>
+                    <a href="https://www.werate.io/" target="_blank" className="underline hover:text-[#16f095a6]">Engineer weRate</a>&nbsp;|&nbsp;
+                    <a href="https://fellowship.mlh.io/" target="_blank" className="underline hover:text-[#16f095a6]">MLH Fellow '23</a><br/>
+                    <a href="https://superteam.fun/" target="_blank" className="underline hover:text-[#16f095a6]">Member SuperteamIN</a>&nbsp;|&nbsp;
                     <a href="https://nixarcade.fun/" target="_blank" className="underline hover:text-[#16f095a6]">Building Nixarcade</a><br/>
                     Experience in building apps with Typescript, Golang and Python.
                 </div>
