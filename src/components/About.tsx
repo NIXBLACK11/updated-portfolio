@@ -31,9 +31,9 @@ export const About = () => {
         return () => {
           sections.forEach((section) => observer.unobserve(section));
         };
-      }, []);
+      }, [setActiveSection]);
     return (
-        <div className="mx-8 flex justify-center items-center flex-col mt-20 mb-auto">
+        <div className="mx-8 flex justify-center items-center flex-col my-20 mb-auto max-h-screen">
             <div>
                 <div className="font-custom text-[#16F096] text-5xl">Siddharth Singh Rana</div>
                 <div className="font-custom font-color text-2xl mt-2">Software Developer</div>

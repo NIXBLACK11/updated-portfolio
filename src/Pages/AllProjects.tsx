@@ -44,19 +44,20 @@ export const AllProjects = () => {
 				]}
 			/>
 			<AllProCard
-				projectTitle="NixPay"
+				projectTitle="CrowdVault"
 				description={[
-					"• Built a crypto payment gateway that enables seamless transactions with real-time analytics, email notifications, and webhook callbacks.",
-					"• Integrated Jupiter Swap API to automatically convert received tokens into USDC for merchant settlements.",
-					"• Developed an easy-to-use NPM SDK for effortless integration with various platforms."
+					"• Completely onchain platform for creating, sharing, and donating to campaigns.",
+					"• Users can launch campaigns and receive donations in USDC.",
+					"• Enables transparent, decentralized fundraising for any cause."
 				]}
-				link="https://pay.nixblack.site"
-				projPhoto="projects/nixpay.png"
+				link="https://crowdvault-frontend.vercel.app/"
+				projPhoto="projects/crowdvault.png"
 				skills={[
-					"TypeScript",
-					"Next.js",
 					"Solana",
-					"Jupiter API"
+					"TypeScript",
+					"React",
+					"USDC",
+					"Tailwind"
 				]}
 			/>
 			<AllProCard
@@ -104,6 +105,22 @@ export const AllProjects = () => {
 					"Tailwind",
 					"TypeScript",
 					"Solana"
+				]}
+			/>
+			<AllProCard
+				projectTitle="NixPay"
+				description={[
+					"• Built a crypto payment gateway that enables seamless transactions with real-time analytics, email notifications, and webhook callbacks.",
+					"• Integrated Jupiter Swap API to automatically convert received tokens into USDC for merchant settlements.",
+					"• Developed an easy-to-use NPM SDK for effortless integration with various platforms."
+				]}
+				link="https://pay.nixblack.site"
+				projPhoto="projects/nixpay.png"
+				skills={[
+					"TypeScript",
+					"Next.js",
+					"Solana",
+					"Jupiter API"
 				]}
 			/>
 			<AllProCard
